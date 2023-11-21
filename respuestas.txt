@@ -4,3 +4,4 @@
 4- mkdir si
 5- mv si.txt/si
 6-  cat alumnos.txt |print {$1 $2 $5} | sed 's/ /-/g'
+7- grep -o -i 'Gonzalez' Alumnos.txt | wc -l

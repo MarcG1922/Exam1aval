@@ -7,3 +7,4 @@
 7- grep -o -i 'Gonzalez' Alumnos.txt | wc -l
 8- cat Alumnos.txt | sed 's/ Vicente /Pepe/g' 
 9- no ho se
+10- cat alumnos.txt | grep -i '^[J]' Alumnos.txt | print { $1 $2}

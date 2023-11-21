@@ -3,3 +3,4 @@
 3- cat alumnos.txt | grep "SI" | wc -l > si.txt
 4- mkdir si
 5- mv si.txt/si
+6-  cat alumnos.txt |print {$1 $2 $5} | sed 's/ /-/g'

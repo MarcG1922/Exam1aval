@@ -1,3 +1,5 @@
 1- mkdir examen
 2- cd examen
-3-  cat alumnos.txt | grep "SI" | head | tail > si.txt
+3- cat alumnos.txt | grep "SI" | wc -l > si.txt
+4- mkdir si
+5- mv si.txt/si
